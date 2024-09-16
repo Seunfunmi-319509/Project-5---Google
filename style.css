@@ -15,9 +15,9 @@
 
 .main .wrapper{
     width: 100%;
-    max-width: 1512px;
-    /* background-color: yellow; */
+    max-width: 1500px;
     padding: 30px;
+    height: 100vh;
 }
 
 .main .wrapper nav .menu ul {
@@ -72,11 +72,125 @@ align-items: center;
     align-content: center;
     justify-content: center;
     gap: 2rem;
+    margin-top: 0px;
 }
 .main .wrapper section .buttons button{
-    padding: 5px;
-    background-color: rgb(178, 178, 194);
+    padding: 8px;
+    background-color: #e6f0ff;
     border: none;
+    border-radius: 5px;
+    font-size: 12px;
 }
+
+.main .wrapper section .offerrings{
+    align-items: center;   
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+}
+
+.main .wrapper section .offerrings .languages{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .wrapper section .offerrings .languages li{
+    list-style: none;
+    margin:0px 5px;
+}
+
+.main .wrapper section .offerrings .languages li a {
+    font-size: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.main .wrapper section .offerrings .languages li a:hover{
+    text-decoration: underline;
+}
+.main .wrapper section .offerrings h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+}
+.main .wrapper footer {
+    /* display: grid; */
+    /* width: 100%; */
+    max-width: 1512px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.main .wrapper footer .country {
+    background-color:  #f5f5f0;
+    padding: 10px;
+    width: 100%;
+    max-width: 1512px;
+}
+
+.main .wrapper footer .country p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.main .wrapper footer .box {
+    display: flex;
+    background-color: #f5f5f0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .wrapper footer .box {
+    border: 1px solid #d4d4d0;
+}
+
+.main .wrapper footer .box .box-1 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .wrapper footer .box .box-1 ul li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.main .wrapper footer .box .box-1 ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.main .wrapper footer .box .box-1 ul li a:hover{
+    text-decoration: underline;
+}
+.main .wrapper footer .box .box-2 p a {
+ font-size: 12px; 
+ font-family: Arial, Helvetica, sans-serif;
+ text-decoration: none;
+ color: black;
+}
+.main .wrapper footer .box .box-2 p a:hover{
+    text-decoration: underline;
+}
+
+.main .wrapper footer .box .box-3 ul{
+    display: flex;
+}
+.main .wrapper footer .box .box-3 ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+.main .wrapper footer .box .box-3 ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main .wrapper footer .box .box-3 ul li a:hover{
+    text-decoration: underline;
+}
+
 
 
